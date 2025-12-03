@@ -1,0 +1,11 @@
+body {
+    background-color: #f0f8ff;
+    color: #191970;
+    font-family: sans-serif;   
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid #191970;
+    padding-bottom: 10px;
+}

@@ -42,3 +42,16 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 768px) {
+    hi{
+        font-size:1.5em;
+    }
+    .button-container{
+        flex-direction: column;
+    }
+    .btn{
+        margin: 10px 0;
+    }
+    
+}

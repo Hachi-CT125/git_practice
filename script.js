@@ -1,5 +1,7 @@
-let message = "ようこそ、JavaScriptの世界へ!";
-console.log(message);
+function sayHello(personName){
 
-message = "次は、HTMLの文字を書き換えるよ!";
-console.log(message);
+    console.log("こんにちは、" + personName + "!")
+}
+
+sayHello("ジェミニ");
+sayHello("太郎");

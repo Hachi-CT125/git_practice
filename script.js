@@ -33,3 +33,24 @@ console.log("【1. push後の配列】", favoritespot);
 const removedspot = favoritespot.pop();
 console.log("【2. popで取り出された要素】", removedspot);
 console.log("【2. pop後の配列】", favoritespot);
+
+const myHunterCub = {
+    color: "パールオーガニックグリーン",
+    year: 2022,
+    cc: 125,
+    isCustomized: true,
+    customParts: ["リアボックス55L", "グリップヒーター", "ドライブレコーダー"]
+};
+
+console.log("バイクの色は：", myHunterCub.color);
+console.log("排気量は：", myHunterCub["cc"]);
+console.log("最初のカスタムパーツ：", myHunterCub.customParts[0]);
+
+myHunterCub.year = 2025;
+console.log("年式変更後：", myHunterCub.year);
+
+console.log("--- for...in ループ開始 ---");
+
+for (const key in myHunterCub) {
+    console.log(`${key}: ${myHunterCub[key]}`);
+}

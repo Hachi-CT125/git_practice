@@ -6,11 +6,14 @@ buttonA.addEventListener("click", function(){
         heading.textContent ="ボタンBは消えたよ!";
         buttonB.remove();
         console.log("ボタンBが削除されました。");
+        buttonB.removeEventListener("click", handleButtonBClick);
+            heading.textContent = "ボタンBが押されたんじゃあ!";
+            console.log("ボタンクリックBが実行されました。")
+        
     } else {
         heading.textContent = "ボタンBは、もうないよ。"
     }
 });
-buttonB.addEventListener("click", function(){
+buttonB.addEventListener("click", handleButtonBClick)
     heading.textContent = "ボタンBが押されたんじゃあ!";
-    console.log("ボタンクリックBが実行されました。")
-})
+    console.log("ボタンクリックBが実行されました。");

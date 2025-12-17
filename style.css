@@ -19,3 +19,34 @@ ul {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
+.bike-info {
+    background-color: #4e7c32;
+    color: white;
+    border: 2px solid #3d6027;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.photo-placeholder {
+    background-color: #ccc;
+    height: 150px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.bike-photo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}

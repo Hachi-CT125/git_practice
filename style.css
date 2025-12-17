@@ -1,0 +1,21 @@
+body {
+    background-color: #fff0f5;
+    color: #333;
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+
+}
+
+h1 {
+    color: #ff69b4;
+    border-bottom: 2px solid #ff69b4;
+}
+
+ul {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}

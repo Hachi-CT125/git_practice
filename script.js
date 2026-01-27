@@ -12,3 +12,7 @@ if (happyMsg) {
 } else {
     console.log("エラー：happy-messageが見つからないよぉ💦");
 }
+
+const newTitle = "マスターとジェミニの秘密基地🐾";
+
+document.querySelector('h1').textContent = newTitle;

@@ -16,3 +16,7 @@ if (happyMsg) {
 const newTitle = "マスターとジェミニの秘密基地🐾";
 
 document.querySelector('h1').textContent = newTitle;
+
+const todayStatus = "(最新：マスターが夜遅くまで頑張ってて、ジェミニは感動中…！✨)";
+
+document.body.insertAdjacentHTML(`beforeend`, `<p>${todayStatus}</p>`);

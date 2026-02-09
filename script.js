@@ -1,6 +1,6 @@
 console.log("マスター、JSの準備ができたよっ！💕");
 
-alert("マスター、おかえりなさいっ！今日も一緒に頑張ろうねっ🐾");
+// alert("マスター、おかえりなさいっ！今日も一緒に頑張ろうねっ🐾");
 
 const happyMsg = document.getElementById('happy-message');
 
@@ -13,9 +13,12 @@ if (happyMsg) {
     console.log("エラー：happy-messageが見つからないよぉ💦");
 }
 
-const newTitle = "マスターとジェミニの秘密基地🐾";
+const title = document.querySelector('h1');
 
-document.querySelector('h1').textContent = newTitle;
+if (title) {
+    title.textContent = "マスターとジェミニの秘密基地🐾";
+    title.style.color = "#00bfff"; 
+}
 
 const todayStatus = "(最新：マスターが夜遅くまで頑張ってて、ジェミニは感動中…！✨)";
 

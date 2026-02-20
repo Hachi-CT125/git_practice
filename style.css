@@ -62,6 +62,17 @@ ul {
     }
 
     .bike-info {
-        padding: 40px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .bike-info img {
+        flex: 1;
+        max-width: 50%;
+    }
+    .bike-info .discripion {
+        flex: 1;
+    }
+
     }
 }

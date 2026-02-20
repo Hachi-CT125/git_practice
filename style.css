@@ -64,14 +64,16 @@ ul {
     .bike-info {
         display: flex;
         align-items: center;
-        gap: 20px;
+        justify-content: space-around;
+        gap: 30px;
     }
-    .bike-info img {
-        flex: 1;
-        max-width: 50%;
+    .bike-photo {
+        width: 50%;
+        height: auto;
     }
-    .bike-info .discripion {
-        flex: 1;
+    bike-text {
+        width: 40%;
+        text-align: left;
     }
 
     }
